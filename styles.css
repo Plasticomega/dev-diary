@@ -1,0 +1,33 @@
+body{
+    background-color: #04001C;
+    color: #A69D00
+}
+
+.ContributionCalendar-day[data-level='0'] {
+    background-color: #424242
+}
+
+.ContributionCalendar-day[data-level='1'] {
+    background-color: #6E6800
+}
+
+.ContributionCalendar-day[data-level='2'] {
+    background-color: #ADA500
+}
+
+.ContributionCalendar-day[data-level='3'] {
+    background-color: #DED300
+}
+
+.ContributionCalendar-day[data-level='4'] {
+    background-color: #FFF200
+}
+
+.contrib-number{
+    color: greenyellow;
+}
+
+.sr-only{
+    color: greenyellow;
+    font-size: large;
+}

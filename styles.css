@@ -1,6 +1,6 @@
 body{
     background-color: #04001C;
-    color: #A69D00
+    color: #A69D00;
 }
 
 .ContributionCalendar-day[data-level='0'] {
@@ -30,4 +30,56 @@ body{
 .sr-only{
     color: greenyellow;
     font-size: large;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;   
+}
+.title {   
+    font-size: 72px ;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.calendar{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.intro{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: 0 auto;
+    border: solid #6E6800 3px;
+    height: auto;
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.736);
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.log{
+    font-size: 24px;
+    text-align: start
 }

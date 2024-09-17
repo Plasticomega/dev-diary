@@ -110,3 +110,15 @@ body{
         font-size: 40px;
     }
 }
+
+@media only screen and (max-width:480px) {
+    .intro {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .log {
+        font-size: 18px;
+    }
+}

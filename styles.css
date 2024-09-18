@@ -14,12 +14,13 @@
 
 body{
     background-color: #04001C;
-    color: #A69D00;
+    color: #fbff00;
     font-family: 'arcade','Times New Roman', Times, serif;
     background-image: url('tenor.gif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     overflow: hidden;
 }
 
@@ -28,29 +29,25 @@ body{
 }
 
 .ContributionCalendar-day[data-level='1'] {
-    background-color: #6E6800
+    background-color: #FFF200
 }
 
 .ContributionCalendar-day[data-level='2'] {
-    background-color: #ADA500
+    background-color: #FFF200
 }
 
 .ContributionCalendar-day[data-level='3'] {
-    background-color: #DED300
+    background-color: #FFF200
 }
 
 .ContributionCalendar-day[data-level='4'] {
     background-color: #FFF200
 }
 
-.contrib-number{
-    color: greenyellow;
-}
 
 .sr-only{
-    color: #A69D00;
+    color: #fbff00;
     font-size: 24px;
-    font-weight: bolder;
 }
 
 .container{
@@ -64,14 +61,18 @@ body{
     font-family: 'Times New Roman', Times, serif;
     margin: auto;
     min-width: 360px;
+    max-width: 800px;
     text-align: center;
     font-family: 'arcade2','Times New Roman', Times, serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
 }
 
 .calendar{
     margin-top: 15px;
     margin-bottom: 15px;
     font-family: 'arcade';
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .intro{
@@ -81,6 +82,7 @@ body{
     font-size: 24px;
     margin-top: 15px;
     display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .cards{
@@ -89,7 +91,8 @@ body{
     max-width: 1000px;
     margin: 0 auto; 
     height: auto;
-    color: rgba(255, 255, 255, 0.736);
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
     margin-top: 15px;
 }
 
@@ -97,9 +100,10 @@ body{
     display: flex;
     flex-direction: column;
     padding: 15px;
-    border: solid #6E6800 3px;
+    border: solid #fbff00 3px;
     border-radius: 20px;
     margin-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .upper{
@@ -140,3 +144,16 @@ body{
     }
 }
 
+@media (max-width: 480px) {
+    body {
+    background-position: bottom left; 
+    background-size: cover; 
+    }
+}
+
+@media (max-width: 360px) {
+    body {
+    background-position: bottom left; 
+    background-size: cover; 
+    }
+}

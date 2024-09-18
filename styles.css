@@ -29,19 +29,19 @@ body{
 }
 
 .ContributionCalendar-day[data-level='1'] {
-    background-color: #666100
+    background-color: #5A5A00
 }
 
 .ContributionCalendar-day[data-level='2'] {
-    background-color: #a39b00
+    background-color: #8A8A00
 }
 
 .ContributionCalendar-day[data-level='3'] {
-    background-color: #dacf01
+    background-color: #BFBF00
 }
 
 .ContributionCalendar-day[data-level='4'] {
-    background-color: #FFF200
+    background-color: #FFFF00
 }
 
 

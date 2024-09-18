@@ -29,15 +29,15 @@ body{
 }
 
 .ContributionCalendar-day[data-level='1'] {
-    background-color: #FFF200
+    background-color: #666100
 }
 
 .ContributionCalendar-day[data-level='2'] {
-    background-color: #FFF200
+    background-color: #a39b00
 }
 
 .ContributionCalendar-day[data-level='3'] {
-    background-color: #FFF200
+    background-color: #dacf01
 }
 
 .ContributionCalendar-day[data-level='4'] {

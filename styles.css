@@ -21,7 +21,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .ContributionCalendar-day[data-level='0'] {

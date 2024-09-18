@@ -1,6 +1,26 @@
+@font-face {
+  font-family: 'arcade'; /* Name you want to use in CSS */
+  src: url(C&C\ Red\ Alert\ [INET].ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'arcade2'; /* Name you want to use in CSS */
+  src: url(04B_30__.TTF);
+  font-weight:normal;
+  font-style: normal;
+}
+
 body{
     background-color: #04001C;
     color: #A69D00;
+    font-family: 'arcade','Times New Roman', Times, serif;
+    background-image: url('tenor.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .ContributionCalendar-day[data-level='0'] {
@@ -45,11 +65,13 @@ body{
     margin: auto;
     min-width: 360px;
     text-align: center;
+    font-family: 'arcade2','Times New Roman', Times, serif;
 }
 
 .calendar{
     margin-top: 15px;
     margin-bottom: 15px;
+    font-family: 'arcade';
 }
 
 .intro{
@@ -95,21 +117,16 @@ body{
 
 @media only screen and (max-width: 768px) {
     .title {
-        font-size: 56px;
+        font-size: 48px;
     }
 }
 
 @media only screen and (max-width: 480px) {
     .title {
-        font-size: 48px;
+        font-size: 34px;
     }
 }
 
-@media only screen and (max-width: 320px) {
-    .title {
-        font-size: 40px;
-    }
-}
 
 @media only screen and (max-width: 360px) {
     .intro, .log {
@@ -122,3 +139,4 @@ body{
         font-size: 22px;
     }
 }
+

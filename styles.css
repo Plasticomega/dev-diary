@@ -147,13 +147,11 @@ body{
 @media (max-width: 480px) {
     body {
     background-position: center; 
-    background-size: cover; 
     }
 }
 
 @media (max-width: 360px) {
     body {
     background-position: center; 
-    background-size: cover; 
     }
 }
